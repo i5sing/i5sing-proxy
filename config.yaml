@@ -10,8 +10,3 @@ proxy:
       uri: http://goapi.5sing.kugou.com
       parameters:
         host: goapi.5sing.kugou.com
-
-    - id: mp3
-      uri: http://wsaudio.bssdlbig.kugou.com
-      parameters:
-        host: wsaudio.bssdlbig.kugou.com
