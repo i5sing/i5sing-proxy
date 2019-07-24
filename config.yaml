@@ -1,0 +1,11 @@
+proxy:
+  routes:
+    - id: mobileapi
+      uri: http://mobileapi.5sing.kugou.com
+      filters:
+        - name: AddRequestHeaderFilter
+          parameters:
+            host: mobileapi.5sing.kugou.com
+    - id: goapi
+      uri: http://goapi.5sing.kugou.com
+      parameters: {}
