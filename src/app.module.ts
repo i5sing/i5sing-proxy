@@ -8,7 +8,7 @@ import { resolve } from 'path';
 
 @Module({
   imports: [
-    BootModule.register(resolve(__dirname, '../'), 'config.yaml'),
+    BootModule.register(`${process.env.CONFIG_LOCATION || resolve(__dirname, '../')}`, 'config.yaml'),
     ProxyModule.register({ dependencies: [NEST_BOOT] }),
   ],
   controllers: [AppController],
