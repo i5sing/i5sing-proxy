@@ -8,4 +8,10 @@ proxy:
             host: mobileapi.5sing.kugou.com
     - id: goapi
       uri: http://goapi.5sing.kugou.com
-      parameters: {}
+      parameters:
+        host: goapi.5sing.kugou.com
+
+    - id: mp3
+      uri: http://wsaudio.bssdlbig.kugou.com
+      parameters:
+        host: wsaudio.bssdlbig.kugou.com
